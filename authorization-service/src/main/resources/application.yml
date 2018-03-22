@@ -1,0 +1,11 @@
+
+security:
+    oauth2:
+        client:
+            client-id: myclient
+            client-secret: mysecret
+            authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+            scope: all
+
+
+
